@@ -1,0 +1,378 @@
+{
+  "checkedAt": "2026-09-09",
+  "source": "Ultimate Frame Data（查询时页面未标统一补丁号）",
+  "records": {
+    "jp": {
+      "Crouching Medium Punch": {
+        "movename": "Crouching Medium Punch",
+        "startup": "7",
+        "totalframes": "24",
+        "onhit": "+6",
+        "onblock": "-2",
+        "activeframes": "4",
+        "recovery": "14",
+        "cancellable": "Special, Super"
+      },
+      "Standing Heavy Punch": {
+        "movename": "Standing Heavy Punch",
+        "startup": "12",
+        "totalframes": "35",
+        "onhit": "+3",
+        "onblock": "-3",
+        "activeframes": "2",
+        "recovery": "22",
+        "cancellable": "Special, Super"
+      },
+      "Forward + Heavy Kick (Bylina)": {
+        "movename": "Forward + Heavy Kick (Bylina)",
+        "startup": "11",
+        "totalframes": "40",
+        "onhit": "Knockdown +38",
+        "onblock": "-5",
+        "activeframes": "6",
+        "recovery": "24",
+        "cancellable": "Second Hit: Special, Super"
+      },
+      "Crouching Heavy Punch": {
+        "movename": "Crouching Heavy Punch",
+        "startup": "9",
+        "totalframes": "34",
+        "onhit": "+1",
+        "onblock": "-6",
+        "activeframes": "6",
+        "recovery": "20",
+        "cancellable": "--"
+      }
+    },
+    "aki": {
+      "Standing Heavy Kick": {
+        "movename": "Standing Heavy Kick",
+        "startup": "9",
+        "totalframes": "31",
+        "onhit": "+4",
+        "onblock": "-3",
+        "activeframes": "4",
+        "recovery": "19",
+        "cancellable": "Special, Super"
+      },
+      "Crouching Medium Kick": {
+        "movename": "Crouching Medium Kick",
+        "startup": "7",
+        "totalframes": "25",
+        "onhit": "+5",
+        "onblock": "+1",
+        "activeframes": "3",
+        "recovery": "16",
+        "cancellable": "Super"
+      },
+      "Standing Medium Punch": {
+        "movename": "Standing Medium Punch",
+        "startup": "6",
+        "totalframes": "26",
+        "onhit": "+3",
+        "onblock": "-3",
+        "activeframes": "5",
+        "recovery": "16 (18)",
+        "cancellable": "Special, Super"
+      },
+      "Forward + Heavy Kick (Qiu Niu)": {
+        "movename": "Forward + Heavy Kick (Qiu Niu)",
+        "startup": "14",
+        "totalframes": "48",
+        "onhit": "+4",
+        "onblock": "+2",
+        "activeframes": "3, 3",
+        "recovery": "16 (24)",
+        "cancellable": "--"
+      },
+      "Venomous Fang": {
+        "movename": "Venomous Fang",
+        "startup": "11...+19",
+        "totalframes": "63",
+        "onhit": "Knockdown +20...+34 (Crumple +67...+81)",
+        "onblock": "-25...-11",
+        "activeframes": "15",
+        "recovery": "30",
+        "cancellable": ""
+      }
+    },
+    "ryu": {
+      "Back + Heavy Punch": {
+        "movename": "Back + Heavy Punch",
+        "startup": "7",
+        "totalframes": "35",
+        "onhit": "+1",
+        "onblock": "-13",
+        "activeframes": "4",
+        "recovery": "25",
+        "cancellable": "Special, Super"
+      },
+      "Standing Heavy Punch": {
+        "movename": "Standing Heavy Punch",
+        "startup": "10",
+        "totalframes": "32",
+        "onhit": "+4",
+        "onblock": "-2",
+        "activeframes": "5",
+        "recovery": "18",
+        "cancellable": "Special, Super, Target Combo"
+      },
+      "Forward + Heavy Punch (Solar Plexus Strike)": {
+        "movename": "Forward + Heavy Punch (Solar Plexus Strike)",
+        "startup": "20",
+        "totalframes": "40",
+        "onhit": "+6",
+        "onblock": "+3",
+        "activeframes": "5",
+        "recovery": "16",
+        "cancellable": "--"
+      },
+      "High Blade Kick (Light Kick)": {
+        "movename": "High Blade Kick (Light Kick)",
+        "startup": "14",
+        "totalframes": "41",
+        "onhit": "Knockdown +35",
+        "onblock": "-11",
+        "activeframes": "6",
+        "recovery": "22",
+        "cancellable": ""
+      },
+      "Shoryuken (Medium Punch)": {
+        "movename": "Shoryuken (Medium Punch)",
+        "startup": "6",
+        "totalframes": "57",
+        "onhit": "Knockdown +34",
+        "onblock": "-32",
+        "activeframes": "10",
+        "recovery": "42",
+        "cancellable": ""
+      }
+    },
+    "ken": {
+      "Crouching Medium Kick": {
+        "movename": "Crouching Medium Kick",
+        "startup": "7",
+        "totalframes": "28",
+        "onhit": "-2",
+        "onblock": "-6",
+        "activeframes": "3",
+        "recovery": "19",
+        "cancellable": "Special, Super"
+      },
+      "Standing Heavy Punch": {
+        "movename": "Standing Heavy Punch",
+        "startup": "10",
+        "totalframes": "31",
+        "onhit": "+3",
+        "onblock": "-2",
+        "activeframes": "5",
+        "recovery": "17",
+        "cancellable": "Special, Super"
+      },
+      "Crouching Medium Punch": {
+        "movename": "Crouching Medium Punch",
+        "startup": "6",
+        "totalframes": "22 (24 on whiff)",
+        "onhit": "+5",
+        "onblock": "0",
+        "activeframes": "3",
+        "recovery": "14 (16 on whiff)",
+        "cancellable": "Special, Super"
+      },
+      "Tatsumaki Senpu-kyaku (Light Kick)": {
+        "movename": "Tatsumaki Senpu-kyaku (Light Kick)",
+        "startup": "4...",
+        "totalframes": "46",
+        "onhit": "Knockdown +46 (Variable Knockdown of +38 minimum)",
+        "onblock": "-14",
+        "activeframes": "2, 3",
+        "recovery": "32",
+        "cancellable": ""
+      },
+      "Shoryuken (Light Punch)": {
+        "movename": "Shoryuken (Light Punch)",
+        "startup": "5",
+        "totalframes": "47",
+        "onhit": "Knockdown +33",
+        "onblock": "-23",
+        "activeframes": "10",
+        "recovery": "33",
+        "cancellable": ""
+      },
+      "Shoryuken (Medium Punch)": {
+        "movename": "Shoryuken (Medium Punch)",
+        "startup": "6",
+        "totalframes": "55",
+        "onhit": "Knockdown +33",
+        "onblock": "-28",
+        "activeframes": "10",
+        "recovery": "40",
+        "cancellable": ""
+      }
+    },
+    "jamie": {
+      "Crouching Medium Kick": {
+        "movename": "Crouching Medium Kick",
+        "startup": "7",
+        "totalframes": "27",
+        "onhit": "-1",
+        "onblock": "-6",
+        "activeframes": "3",
+        "recovery": "18",
+        "cancellable": "Special, Super"
+      },
+      "Standing Heavy Punch": {
+        "movename": "Standing Heavy Punch",
+        "startup": "5, 7, 12",
+        "totalframes": "34",
+        "onhit": "+1",
+        "onblock": "-3",
+        "activeframes": "1, 1, 3",
+        "recovery": "20",
+        "cancellable": "Second Hit Only: Special, Super"
+      },
+      "Crouching Medium Punch": {
+        "movename": "Crouching Medium Punch",
+        "startup": "6",
+        "totalframes": "21 (23 on whiff)",
+        "onhit": "+5",
+        "onblock": "-1",
+        "activeframes": "3",
+        "recovery": "13 (15 on whiff)",
+        "cancellable": "Special, Super"
+      },
+      "Standing Heavy Kick": {
+        "movename": "Standing Heavy Kick",
+        "startup": "15",
+        "totalframes": "38",
+        "onhit": "+3",
+        "onblock": "-5",
+        "activeframes": "3",
+        "recovery": "21",
+        "cancellable": "Special, Super"
+      },
+      "Freeflow Strikes > Kick Followup 2": {
+        "movename": "Freeflow Strikes > Kick Followup 2",
+        "startup": "18 / 21 / 24 / 18",
+        "totalframes": "83 / 86 / 89 / 83",
+        "onhit": "Knockdown -1 / KD -1 / KD -1 / KD +1 [KD +24]",
+        "onblock": "-49 / -49 / -49 / -49 [-26]",
+        "activeframes": "2",
+        "recovery": "64",
+        "cancellable": ""
+      },
+      "Bakkai (Light Kick)": {
+        "movename": "Bakkai (Light Kick)",
+        "startup": "18",
+        "totalframes": "67",
+        "onhit": "Knockdown +42",
+        "onblock": "-12",
+        "activeframes": "**",
+        "recovery": "24",
+        "cancellable": ""
+      },
+      "Swagger Step (Light Punch)": {
+        "movename": "Swagger Step (Light Punch)",
+        "startup": "17",
+        "totalframes": "42",
+        "onhit": "Knockdown +39",
+        "onblock": "-6...+1",
+        "activeframes": "9",
+        "recovery": "17",
+        "cancellable": ""
+      },
+      "Swagger Step > Swagger Hermit Punch": {
+        "movename": "Swagger Step > Swagger Hermit Punch",
+        "startup": "19",
+        "totalframes": "60",
+        "onhit": "Knockdown +20",
+        "onblock": "-23",
+        "activeframes": "3",
+        "recovery": "39",
+        "cancellable": ""
+      }
+    },
+    "mai": {
+      "Crouching Medium Punch": {
+        "movename": "Crouching Medium Punch",
+        "startup": "6",
+        "totalframes": "24 on hit/block, 26 on whiff",
+        "onhit": "+5",
+        "onblock": "-3",
+        "activeframes": "4",
+        "recovery": "15 on hit/block, 17 on whiff",
+        "cancellable": "Special, Super"
+      },
+      "Standing Heavy Punch": {
+        "movename": "Standing Heavy Punch",
+        "startup": "9",
+        "totalframes": "32",
+        "onhit": "+1",
+        "onblock": "-3",
+        "activeframes": "3",
+        "recovery": "21",
+        "cancellable": "Special, Super"
+      },
+      "Back + Heavy Kick (Hoshi Kujaku)": {
+        "movename": "Back + Heavy Kick (Hoshi Kujaku)",
+        "startup": "8",
+        "totalframes": "32",
+        "onhit": "+3",
+        "onblock": "-1",
+        "activeframes": "5",
+        "recovery": "20",
+        "cancellable": "--"
+      },
+      "Forward + Medium Punch (Senkotsu Uchi)": {
+        "movename": "Forward + Medium Punch (Senkotsu Uchi)",
+        "startup": "20",
+        "totalframes": "40",
+        "onhit": "+2",
+        "onblock": "-3",
+        "activeframes": "3",
+        "recovery": "18",
+        "cancellable": "--"
+      },
+      "Hishou Ryuuenjin (Heavy Kick)": {
+        "movename": "Hishou Ryuuenjin (Heavy Kick)",
+        "startup": "7",
+        "totalframes": "53",
+        "onhit": "Knockdown +31 (Knockdown +32)",
+        "onblock": "-31",
+        "activeframes": "18",
+        "recovery": "29",
+        "cancellable": ""
+      },
+      "Hishou Ryuuenjin (Medium Kick)": {
+        "movename": "Hishou Ryuuenjin (Medium Kick)",
+        "startup": "6",
+        "totalframes": "52",
+        "onhit": "Knockdown +31 (Knockdown +32)",
+        "onblock": "-28",
+        "activeframes": "18",
+        "recovery": "29",
+        "cancellable": ""
+      },
+      "Ryuuenbu (Medium Punch)": {
+        "movename": "Ryuuenbu (Medium Punch)",
+        "startup": "14",
+        "totalframes": "47",
+        "onhit": "Knockdown +35...+41 (Limited Juggle State, Knockdown +42...)",
+        "onblock": "-6...0 (-6... 0)",
+        "activeframes": "2, 7",
+        "recovery": "31",
+        "cancellable": ""
+      },
+      "Musasabi no Mai (During Forward Jump Only)": {
+        "movename": "Musasabi no Mai (During Forward Jump Only)",
+        "startup": "21",
+        "totalframes": "**",
+        "onhit": "Limited juggle state, knockdown ** on hit...",
+        "onblock": "-7...-1 [-4...+1]",
+        "activeframes": "10...6",
+        "recovery": "**",
+        "cancellable": ""
+      }
+    }
+  }
+}

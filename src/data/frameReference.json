@@ -1,0 +1,837 @@
+{
+  "sourceName": "SF6 Frame Data Search",
+  "version": "Ver.2.0401.010（资料站标注）",
+  "checkedAt": "2026-09-09",
+  "sourceUrls": {
+    "jp": "https://frame-search.com/?lang=en-us&character_name=JP",
+    "aki": "https://frame-search.com/?lang=en-us&character_name=A.K.I",
+    "ryu": "https://frame-search.com/?lang=en-us&character_name=Ryu",
+    "ken": "https://frame-search.com/?lang=en-us&character_name=Ken",
+    "jamie": "https://frame-search.com/?lang=en-us&character_name=Jamie",
+    "mai": "https://frame-search.com/?lang=en-us&character_name=Mai"
+  },
+  "records": {
+    "jp": {
+      "5": {
+        "name": "Standing Heavy Kick",
+        "startup": "12",
+        "active": "12-15",
+        "recovery": "17",
+        "onHit": "7",
+        "onBlock": "2",
+        "cancel": "-"
+      },
+      "6": {
+        "name": "Crouching Light Punch",
+        "startup": "4",
+        "active": "4-5",
+        "recovery": "11",
+        "onHit": "4",
+        "onBlock": "-1",
+        "cancel": "C"
+      },
+      "8": {
+        "name": "Crouching Medium Punch",
+        "startup": "7",
+        "active": "7-10",
+        "recovery": "14",
+        "onHit": "6",
+        "onBlock": "-2",
+        "cancel": "C"
+      },
+      "26": {
+        "name": "L Triglav",
+        "startup": "22",
+        "active": "22-31",
+        "recovery": "55 total frames",
+        "onHit": "D",
+        "onBlock": "-2",
+        "cancel": "SA3"
+      },
+      "27": {
+        "name": "M Triglav",
+        "startup": "22",
+        "active": "22-31",
+        "recovery": "55 total frames",
+        "onHit": "D",
+        "onBlock": "-2",
+        "cancel": "SA3"
+      },
+      "28": {
+        "name": "H Triglav",
+        "startup": "22",
+        "active": "22-31",
+        "recovery": "55 total frames",
+        "onHit": "D",
+        "onBlock": "-2",
+        "cancel": "SA3"
+      },
+      "32": {
+        "name": "L Stribog",
+        "startup": "16",
+        "active": "16-21",
+        "recovery": "49 total frames",
+        "onHit": "D",
+        "onBlock": "-10",
+        "cancel": "SA3"
+      },
+      "33": {
+        "name": "M Stribog",
+        "startup": "20",
+        "active": "20-22, 24-26",
+        "recovery": "53 total frames",
+        "onHit": "D",
+        "onBlock": "-8",
+        "cancel": "SA3"
+      },
+      "34": {
+        "name": "H Stribog",
+        "startup": "28",
+        "active": "28-30, 40-42",
+        "recovery": "61 total frames",
+        "onHit": "D",
+        "onBlock": "4",
+        "cancel": "SA3"
+      },
+      "36": {
+        "name": "L Departure",
+        "startup": "150",
+        "active": "150-159",
+        "recovery": "50 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "37": {
+        "name": "M Departure",
+        "startup": "150",
+        "active": "150-159",
+        "recovery": "50 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "38": {
+        "name": "H Departure",
+        "startup": "150",
+        "active": "150-159",
+        "recovery": "50 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "44": {
+        "name": "Amnesia",
+        "startup": "3",
+        "active": "3-20",
+        "recovery": "35",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "45": {
+        "name": "OD Amnesia",
+        "startup": "1",
+        "active": "1-20",
+        "recovery": "35",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "59": {
+        "name": "Forward Dash",
+        "startup": "-",
+        "active": "-",
+        "recovery": "22 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      }
+    },
+    "aki": {
+      "2": {
+        "name": "Standing Medium Punch",
+        "startup": "6",
+        "active": "6-10",
+        "recovery": "14",
+        "onHit": "3",
+        "onBlock": "-3",
+        "cancel": "C"
+      },
+      "3": {
+        "name": "Standing Medium Kick",
+        "startup": "8",
+        "active": "8-10",
+        "recovery": "15",
+        "onHit": "6",
+        "onBlock": "-2",
+        "cancel": "-"
+      },
+      "6": {
+        "name": "Crouching Light Punch",
+        "startup": "4",
+        "active": "4-5",
+        "recovery": "9",
+        "onHit": "4",
+        "onBlock": "-1",
+        "cancel": "C"
+      },
+      "9": {
+        "name": "Crouching Medium Kick",
+        "startup": "7",
+        "active": "7-9",
+        "recovery": "16",
+        "onHit": "5",
+        "onBlock": "1",
+        "cancel": "SA"
+      },
+      "24": {
+        "name": "Nightshade Pulse",
+        "startup": "17",
+        "active": "-",
+        "recovery": "52 total frames",
+        "onHit": "-5",
+        "onBlock": "-10",
+        "cancel": "*SA3"
+      },
+      "30": {
+        "name": "Orchid Spring",
+        "startup": "26",
+        "active": "*",
+        "recovery": "46 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "32": {
+        "name": "L Serpent Lash",
+        "startup": "14",
+        "active": "14-16",
+        "recovery": "26",
+        "onHit": "1",
+        "onBlock": "-8",
+        "cancel": "SA3"
+      },
+      "33": {
+        "name": "M Serpent Lash",
+        "startup": "14",
+        "active": "14-22",
+        "recovery": "21",
+        "onHit": "D",
+        "onBlock": "-12",
+        "cancel": "SA3"
+      },
+      "34": {
+        "name": "H Serpent Lash",
+        "startup": "11",
+        "active": "11-16",
+        "recovery": "32",
+        "onHit": "D",
+        "onBlock": "-20",
+        "cancel": "SA3"
+      },
+      "44": {
+        "name": "Sinister Slide",
+        "startup": "-",
+        "active": "-",
+        "recovery": "216 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "45": {
+        "name": "Venomous Fang",
+        "startup": "19",
+        "active": "19-33",
+        "recovery": "30",
+        "onHit": "D",
+        "onBlock": "-25",
+        "cancel": "-"
+      },
+      "46": {
+        "name": "Heel Strike",
+        "startup": "11",
+        "active": "11-13, 23-25",
+        "recovery": "20",
+        "onHit": "4",
+        "onBlock": "-3",
+        "cancel": "SA3"
+      },
+      "54": {
+        "name": "Forward Dash",
+        "startup": "-",
+        "active": "-",
+        "recovery": "19 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      }
+    },
+    "ryu": {
+      "2": {
+        "name": "Standing Medium Punch",
+        "startup": "6",
+        "active": "6-9",
+        "recovery": "11",
+        "onHit": "7",
+        "onBlock": "-1",
+        "cancel": "C"
+      },
+      "6": {
+        "name": "Crouching Light Punch",
+        "startup": "4",
+        "active": "4-5",
+        "recovery": "9",
+        "onHit": "4",
+        "onBlock": "-1",
+        "cancel": "C"
+      },
+      "8": {
+        "name": "Crouching Medium Punch",
+        "startup": "6",
+        "active": "6-9",
+        "recovery": "13",
+        "onHit": "5",
+        "onBlock": "0",
+        "cancel": "C"
+      },
+      "9": {
+        "name": "Crouching Medium Kick",
+        "startup": "8",
+        "active": "8-10",
+        "recovery": "19",
+        "onHit": "1",
+        "onBlock": "-6",
+        "cancel": "C"
+      },
+      "26": {
+        "name": "L Hadoken",
+        "startup": "16",
+        "active": "-",
+        "recovery": "47 total frames",
+        "onHit": "2",
+        "onBlock": "-5",
+        "cancel": "SA3"
+      },
+      "27": {
+        "name": "M Hadoken",
+        "startup": "14",
+        "active": "-",
+        "recovery": "47 total frames",
+        "onHit": "0",
+        "onBlock": "-7",
+        "cancel": "SA3"
+      },
+      "28": {
+        "name": "H Hadoken",
+        "startup": "12",
+        "active": "-",
+        "recovery": "47 total frames",
+        "onHit": "-2",
+        "onBlock": "-9",
+        "cancel": "SA3"
+      },
+      "32": {
+        "name": "L Shoryuken",
+        "startup": "5",
+        "active": "5-14",
+        "recovery": "21+12 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-23",
+        "cancel": "SA3"
+      },
+      "33": {
+        "name": "M Shoryuken",
+        "startup": "6",
+        "active": "6-15",
+        "recovery": "30+12 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-32",
+        "cancel": "SA3"
+      },
+      "34": {
+        "name": "H Shoryuken",
+        "startup": "7",
+        "active": "7-16",
+        "recovery": "34+12 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-36",
+        "cancel": "SA3"
+      },
+      "36": {
+        "name": "L Tatsumaki Senpu-kyaku",
+        "startup": "12",
+        "active": "12-14",
+        "recovery": "14+18 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-15",
+        "cancel": "-"
+      },
+      "37": {
+        "name": "M Tatsumaki Senpu-kyaku",
+        "startup": "14",
+        "active": "14-15, 29-30",
+        "recovery": "11+20 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-13",
+        "cancel": "-"
+      },
+      "38": {
+        "name": "H Tatsumaki Senpu-kyaku",
+        "startup": "16",
+        "active": "16-17, 31-32, 46-47",
+        "recovery": "14+17 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-13",
+        "cancel": "-"
+      },
+      "52": {
+        "name": "Denjin Charge",
+        "startup": "-",
+        "active": "-",
+        "recovery": "52 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "61": {
+        "name": "SA3 Shin Shoryuken",
+        "startup": "5",
+        "active": "5-6, 7-8, 9-10, 11-12, 13-14, 15-16",
+        "recovery": "71",
+        "onHit": "D",
+        "onBlock": "-52",
+        "cancel": "-"
+      },
+      "65": {
+        "name": "Forward Dash",
+        "startup": "-",
+        "active": "-",
+        "recovery": "19 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      }
+    },
+    "ken": {
+      "2": {
+        "name": "Standing Medium Punch",
+        "startup": "5",
+        "active": "5-8",
+        "recovery": "14",
+        "onHit": "4",
+        "onBlock": "-2",
+        "cancel": "C"
+      },
+      "6": {
+        "name": "Crouching Light Punch",
+        "startup": "4",
+        "active": "4-5",
+        "recovery": "9",
+        "onHit": "5",
+        "onBlock": "-1",
+        "cancel": "C"
+      },
+      "19": {
+        "name": "Quick Dash",
+        "startup": "-",
+        "active": "-",
+        "recovery": "45 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "20": {
+        "name": "Emergency Stop",
+        "startup": "-",
+        "active": "-",
+        "recovery": "16 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "23": {
+        "name": "Chin Buster",
+        "startup": "11",
+        "active": "11-13",
+        "recovery": "27",
+        "onHit": "D",
+        "onBlock": "-14",
+        "cancel": "C"
+      },
+      "26": {
+        "name": "L Hadoken",
+        "startup": "16",
+        "active": "-",
+        "recovery": "49 total frames",
+        "onHit": "-1",
+        "onBlock": "-7",
+        "cancel": "SA3"
+      },
+      "27": {
+        "name": "M Hadoken",
+        "startup": "14",
+        "active": "-",
+        "recovery": "49 total frames",
+        "onHit": "-3",
+        "onBlock": "-9",
+        "cancel": "SA3"
+      },
+      "28": {
+        "name": "H Hadoken",
+        "startup": "12",
+        "active": "-",
+        "recovery": "49 total frames",
+        "onHit": "-5",
+        "onBlock": "-11",
+        "cancel": "SA3"
+      },
+      "30": {
+        "name": "L Shoryuken",
+        "startup": "5",
+        "active": "5-14",
+        "recovery": "21+12 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-23",
+        "cancel": "SA3"
+      },
+      "31": {
+        "name": "M Shoryuken",
+        "startup": "6",
+        "active": "6-8,9-15",
+        "recovery": "28+12 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-28",
+        "cancel": "SA3"
+      },
+      "32": {
+        "name": "H Shoryuken",
+        "startup": "7",
+        "active": "7-8,9-10,11-16",
+        "recovery": "35+15 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-36",
+        "cancel": "SA3"
+      },
+      "34": {
+        "name": "[Quick Dash] Shoryuken",
+        "startup": "8",
+        "active": "8, 9, 10, 11, 12-17",
+        "recovery": "33+15 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-35",
+        "cancel": "SA3"
+      },
+      "47": {
+        "name": "L Jinrai Kick",
+        "startup": "12",
+        "active": "12-14",
+        "recovery": "28",
+        "onHit": "1",
+        "onBlock": "-11",
+        "cancel": "SA3"
+      },
+      "48": {
+        "name": "M Jinrai Kick",
+        "startup": "16",
+        "active": "16-18",
+        "recovery": "24",
+        "onHit": "2",
+        "onBlock": "-7",
+        "cancel": "SA3"
+      },
+      "49": {
+        "name": "H Jinrai Kick",
+        "startup": "25",
+        "active": "25-27",
+        "recovery": "19",
+        "onHit": "D",
+        "onBlock": "-2",
+        "cancel": "SA3"
+      },
+      "66": {
+        "name": "Forward Dash",
+        "startup": "-",
+        "active": "-",
+        "recovery": "19 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      }
+    },
+    "jamie": {
+      "2": {
+        "name": "Standing Medium Punch",
+        "startup": "8",
+        "active": "8-11",
+        "recovery": "14",
+        "onHit": "6",
+        "onBlock": "2",
+        "cancel": "-"
+      },
+      "6": {
+        "name": "Crouching Light Punch",
+        "startup": "4",
+        "active": "4-5",
+        "recovery": "9",
+        "onHit": "5",
+        "onBlock": "-1",
+        "cancel": "C"
+      },
+      "38": {
+        "name": "The Devil Inside",
+        "startup": "-",
+        "active": "-",
+        "recovery": "50 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      },
+      "39": {
+        "name": "L Freeflow Strikes(1)",
+        "startup": "13",
+        "active": "13-14",
+        "recovery": "24",
+        "onHit": "-1",
+        "onBlock": "-6",
+        "cancel": "SA3"
+      },
+      "41": {
+        "name": "M Freeflow Strikes(1)",
+        "startup": "16",
+        "active": "16-17",
+        "recovery": "24",
+        "onHit": "-1",
+        "onBlock": "-6",
+        "cancel": "SA3"
+      },
+      "43": {
+        "name": "H Freeflow Strikes(1)",
+        "startup": "19",
+        "active": "19-20",
+        "recovery": "24",
+        "onHit": "-1",
+        "onBlock": "-6",
+        "cancel": "SA3"
+      },
+      "53": {
+        "name": "L Freeflow Strikes(3)",
+        "startup": "13",
+        "active": "13-14",
+        "recovery": "30",
+        "onHit": "D",
+        "onBlock": "-17",
+        "cancel": "SA3"
+      },
+      "71": {
+        "name": "L Arrow Kick",
+        "startup": "5",
+        "active": "5-14, 41-50",
+        "recovery": "52",
+        "onHit": "D",
+        "onBlock": "-45",
+        "cancel": "-"
+      },
+      "72": {
+        "name": "M Arrow Kick",
+        "startup": "8",
+        "active": "8-16, 39-43",
+        "recovery": "51",
+        "onHit": "D",
+        "onBlock": "-43",
+        "cancel": "-"
+      },
+      "73": {
+        "name": "H Arrow Kick",
+        "startup": "10",
+        "active": "10-18, 41-45, 54-57",
+        "recovery": "51",
+        "onHit": "D",
+        "onBlock": "-43",
+        "cancel": "-"
+      },
+      "79": {
+        "name": "L Bakkai",
+        "startup": "18",
+        "active": "18-19, 22-24, 29-30, 42-43",
+        "recovery": "24",
+        "onHit": "D",
+        "onBlock": "-12",
+        "cancel": "SA3"
+      },
+      "80": {
+        "name": "M Bakkai",
+        "startup": "22",
+        "active": "22-23, 25-26, 30-31, 37-38, 51-52, 58-59",
+        "recovery": "31",
+        "onHit": "D",
+        "onBlock": "-16",
+        "cancel": "SA3"
+      },
+      "81": {
+        "name": "H Bakkai",
+        "startup": "25",
+        "active": "25-27, 34-35, 42-43, 50-51, 65-66, 74-75, 91-92",
+        "recovery": "32",
+        "onHit": "D",
+        "onBlock": "-17",
+        "cancel": "SA3"
+      },
+      "93": {
+        "name": "Forward Dash",
+        "startup": "-",
+        "active": "-",
+        "recovery": "19 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      }
+    },
+    "mai": {
+      "0": {
+        "name": "Standing Light Punch",
+        "startup": "4",
+        "active": "4-6",
+        "recovery": "7",
+        "onHit": "5",
+        "onBlock": "-2",
+        "cancel": "C"
+      },
+      "9": {
+        "name": "Crouching Medium Kick",
+        "startup": "7",
+        "active": "7-9",
+        "recovery": "19",
+        "onHit": "-2",
+        "onBlock": "-6",
+        "cancel": "C"
+      },
+      "23": {
+        "name": "L Kachousen",
+        "startup": "16",
+        "active": "-",
+        "recovery": "48 total frames",
+        "onHit": "-1",
+        "onBlock": "-7",
+        "cancel": "SA3"
+      },
+      "27": {
+        "name": "M Kachousen",
+        "startup": "14",
+        "active": "-",
+        "recovery": "48 total frames",
+        "onHit": "-3",
+        "onBlock": "-9",
+        "cancel": "SA3"
+      },
+      "31": {
+        "name": "H Kachousen",
+        "startup": "12",
+        "active": "-",
+        "recovery": "48 total frames",
+        "onHit": "-5",
+        "onBlock": "-11",
+        "cancel": "SA3"
+      },
+      "41": {
+        "name": "L Hishou Ryuuenjin",
+        "startup": "5",
+        "active": "5-22",
+        "recovery": "15+15 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-29",
+        "cancel": "-"
+      },
+      "43": {
+        "name": "M Hishou Ryuuenjin",
+        "startup": "6",
+        "active": "6-23",
+        "recovery": "14+15 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-28",
+        "cancel": "-"
+      },
+      "45": {
+        "name": "H Hishou Ryuuenjin",
+        "startup": "7",
+        "active": "7-24",
+        "recovery": "14+15 frame(s) after landing",
+        "onHit": "D",
+        "onBlock": "-31",
+        "cancel": "-"
+      },
+      "49": {
+        "name": "L Ryuuenbu",
+        "startup": "14",
+        "active": "14-20",
+        "recovery": "15",
+        "onHit": "3",
+        "onBlock": "-4",
+        "cancel": "SA3"
+      },
+      "51": {
+        "name": "M Ryuuenbu",
+        "startup": "14",
+        "active": "14-15, 25-31",
+        "recovery": "16",
+        "onHit": "D",
+        "onBlock": "-6",
+        "cancel": "SA3"
+      },
+      "53": {
+        "name": "H Ryuuenbu",
+        "startup": "15",
+        "active": "15-17, 27-36",
+        "recovery": "12",
+        "onHit": "D",
+        "onBlock": "-6",
+        "cancel": "SA3"
+      },
+      "57": {
+        "name": "L Hissatsu Shinobi Bachi",
+        "startup": "10",
+        "active": "10-11, 23-39",
+        "recovery": "16",
+        "onHit": "D",
+        "onBlock": "-10",
+        "cancel": "SA3"
+      },
+      "59": {
+        "name": "M Hissatsu Shinobi Bachi",
+        "startup": "15",
+        "active": "15-16, 28-44",
+        "recovery": "20",
+        "onHit": "D",
+        "onBlock": "-12",
+        "cancel": "SA3"
+      },
+      "61": {
+        "name": "H Hissatsu Shinobi Bachi",
+        "startup": "18",
+        "active": "18-19, 31-47",
+        "recovery": "21",
+        "onHit": "D",
+        "onBlock": "-13",
+        "cancel": "SA3"
+      },
+      "75": {
+        "name": "SA3 Shiranui Ryuu: Enbu Ada Zakura",
+        "startup": "10",
+        "active": "10-11, 16-17, 33-36, 45-48",
+        "recovery": "46",
+        "onHit": "D",
+        "onBlock": "-33",
+        "cancel": "-"
+      },
+      "80": {
+        "name": "Forward Dash",
+        "startup": "-",
+        "active": "-",
+        "recovery": "18 total frames",
+        "onHit": "-",
+        "onBlock": "-",
+        "cancel": "-"
+      }
+    }
+  }
+}
