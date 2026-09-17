@@ -1,3 +1,6 @@
+const characterImage = (fileName) =>
+  `${import.meta.env.BASE_URL}images/${fileName}`
+
 export const characters = [
   {
     id: 'jp',
@@ -8,7 +11,7 @@ export const characters = [
     type: '远程控制',
     difficulty: '进阶',
     color: '#bb9af7',
-    image: '/images/jp.png',
+    image: characterImage('jp.png'),
     description:
       '用远程招式建立距离，以裂隙和投射物组织进攻。先练习对空与拉开距离，再逐步学习设置。',
     tags: ['空间控制', '裂隙设置'],
@@ -23,8 +26,9 @@ export const characters = [
     type: '技巧压制',
     difficulty: '进阶',
     color: '#a4cca1',
-    image: '/images/aki.png',
-    description: '围绕中毒状态安排攻击，观察毒发后的追击机会。学习不同命中状态下的连段分支。',
+    image: characterImage('aki.png'),
+    description:
+      '围绕中毒状态安排攻击，观察毒发后的追击机会。学习不同命中状态下的连段分支。',
     tags: ['中毒机制', '毒发追击'],
     number: '02',
   },
@@ -37,8 +41,9 @@ export const characters = [
     type: '均衡立回',
     difficulty: '入门',
     color: '#c7b5a5',
-    image: '/images/ryu.png',
-    description: '从波动拳、对空与基础确反开始，用扎实的距离判断和稳定连段建立自己的节奏。',
+    image: characterImage('ryu.png'),
+    description:
+      '从波动拳、对空与基础确反开始，用扎实的距离判断和稳定连段建立自己的节奏。',
     tags: ['波升立回', '扎实确反'],
     number: '03',
   },
@@ -51,8 +56,9 @@ export const characters = [
     type: '进攻压制',
     difficulty: '入门',
     color: '#e6a674',
-    image: '/images/ken.png',
-    description: '将命中机会转化为推进距离，通过迅雷脚和奋迅脚变化组织进攻，学习在版边保持主动。',
+    image: characterImage('ken.png'),
+    description:
+      '将命中机会转化为推进距离，通过迅雷脚和奋迅脚变化组织进攻，学习在版边保持主动。',
     tags: ['版边进攻', '奋迅派生'],
     number: '04',
   },
@@ -65,8 +71,9 @@ export const characters = [
     type: '技巧压制',
     difficulty: '进阶',
     color: '#e2c669',
-    image: '/images/jamie.png',
-    description: '权衡饮酒、伤害和压起身的收益。先掌握零酒时的基础应对，再拓展各酒等级的进攻选择。',
+    image: characterImage('jamie.png'),
+    description:
+      '权衡饮酒、伤害和压起身的收益。先掌握零酒时的基础应对，再拓展各酒等级的进攻选择。',
     tags: ['饮酒成长', '节奏变化'],
     number: '05',
   },
@@ -79,11 +86,13 @@ export const characters = [
     type: '进攻压制',
     difficulty: '进阶',
     color: '#ed98aa',
-    image: '/images/mai.png',
-    description: '用花蝶扇牵制，用机动招式改变接近方式。练习确认距离，再把命中转换成稳定收尾。',
+    image: characterImage('mai.png'),
+    description:
+      '用花蝶扇牵制，用机动招式改变接近方式。练习确认距离，再把命中转换成稳定收尾。',
     tags: ['花蝶扇牵制', '灵活进攻'],
     number: '06',
   },
 ]
 
-export const getCharacter = (id) => characters.find((character) => character.id === id)
+export const getCharacter = (id) =>
+  characters.find((character) => character.id === id)
